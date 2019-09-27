@@ -13,8 +13,8 @@ public class TestSubTotal {
     }
     
     @Test
-    public void testEliminar(){
-        System.out.println("Eliminar");
+    public void testSubTotal(){
+        System.out.println("SubTotal");
         String codigo="001";
         Venta venta=new Venta("001", 1000, 2);
         ColeccionVentas instance=new ColeccionVentas();
